@@ -71,7 +71,9 @@ h5 {
 p {
     margin: 0 0 1rem;
 }
-
+header img {
+   border-radius: 50%;
+}
 button.rounded {
     background: #f69314;
     border: none;
@@ -105,15 +107,7 @@ header {
     z-index: 3;
 }
 
-#logo {
-    font-family: "Roboto", "Helvetica", "Sans-serif";
-    font-size: 1.7rem;
-    font-weight: 800;
-    color: #fff;
-    text-decoration: none;
-    position: relative;
-    top: 4px;
-}
+
 
 .hamburger-menu {
     background-color: transparent;
@@ -170,10 +164,9 @@ header ul.is-sticky li a.active {
 #hero {
     background: url('https://onclickwebdesign.com/wp-content/uploads/hero_1.jpg') center center no-repeat;
     background-size: cover;
-    position: absolute;
+    position: absolute;  
     top: 0;
     left: 0;
-    z-index: 1;
     height: 100%;
     width: 100%;
 }
