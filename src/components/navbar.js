@@ -16,10 +16,9 @@ const navbar = () => {
 
                     <ul id="nav-menu">
                         <li><a href="#" class="active">Home</a></li>
-                        <li><a href="zillow.com" target="_blank">Properties</a></li>
-                        <li><a href="#">Agents</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">News</a></li>
+                        <li><a href="#properties" target="_blank">Properties</a></li>
+                        <li><a href="#agents">Agents</a></li>
+                        <li><a href="#about">About</a></li>
                         <li><a href="#">Contact</a></li>
                         <li id="close-flyout"><span class="fas fa-times"></span></li>
                     </ul>
