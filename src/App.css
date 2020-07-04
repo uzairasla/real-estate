@@ -304,6 +304,9 @@ header ul.is-sticky li a.active {
 #properties-slider .property-details span.baths {
   border-right: 1px solid #888;
 }
+.property-details:hover {
+  transform: scale(1.5);
+}
 
 #properties-slider .property-details address {
   font-size: 0.8rem;
