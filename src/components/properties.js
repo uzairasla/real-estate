@@ -2,7 +2,7 @@ import React from "react";
 
 const properties = (props) => {
   return (
-    <div>
+    <div id="properties">
       <img src={props.imgsrc} alt={props.alt} />
       <div class="property-details">
         <p class="price">{props.price}</p>
